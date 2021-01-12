@@ -1,0 +1,79 @@
+body {
+	background-image: url("nolabel.jpg");
+	background-size: 1295px;
+	background-repeat: no-repeat;
+	background-color: rgb(156,192,250);
+	font-family: calibri;
+	cursor: default;
+	position: absolute;
+	margin: 0px;
+}
+
+.M {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5;
+	cursor: pointer;
+}
+
+.A {
+	fill: none;
+	stroke: green;
+	stroke-width: 4;
+	cursor: pointer;
+}
+
+.B {
+	fill: none;
+	stroke: orange;
+	stroke-width: 3;
+	cursor: pointer;
+}
+
+.M:hover {
+	stroke: black;
+	stroke-width: 6;
+}
+
+.A:hover {
+	stroke: black;
+	stroke-width: 5;
+}
+.B:hover {
+	stroke: black;
+	stroke-width: 4;
+}
+
+#ranked {
+	width: 100px;
+	position: absolute;
+	top: 230px;
+	left: 50px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#box {
+	width: 400px;
+	height: 220px;
+	background-color: white;
+	position: absolute;
+	top: -35px;
+	left: -35px;
+	border: 5px solid black;
+	border-radius: 35px;
+	text-align: center;
+}
+
+#header {
+	font-size: 30px;
+}
+
+#text {
+	padding-left: 50px;
+	padding-right: 50px;
+}
